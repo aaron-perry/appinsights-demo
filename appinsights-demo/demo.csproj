@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>appinsights_demo</RootNamespace>
+    <UserSecretsId>2e3da988-8e9e-454e-a124-9712c2c283f1</UserSecretsId>
+    <ApplicationInsightsResourceId>/subscriptions/eb8d7555-6685-4a33-a6ec-71a1a42ed5fa/resourceGroups/appinsights-demo/providers/microsoft.insights/components/app-appinsights-demo</ApplicationInsightsResourceId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.15.0" />
+  </ItemGroup>
+
+</Project>

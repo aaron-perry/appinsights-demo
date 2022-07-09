@@ -1,0 +1,4 @@
+1. You should now have an empty web app running in an app service and insights running in Azure.
+2. Next, we will navigate to the App Insights service.  You can do so from your resources, or from your web app.  From the web app click the application insights tab on the left under settings... Then itshould show a link to your application insights resource.
+3. From the application insights dashboard, take note of the first 2 important values we will investigate.  The first is the instrumentation key, and the second is the connection string located in the top right.
+4. Copy the instrumentation key and the connection string for use later in this demo
